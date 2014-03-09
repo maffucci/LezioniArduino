@@ -28,7 +28,7 @@ void setup() {
 
 void loop() {
   val01 = digitalRead(BUTTON01);  // legge il valore dell'input e lo conserva
-  val02 = digitalRead(BUTTON01);  // legge il valore dell'input e lo conserva
+  val02 = digitalRead(BUTTON02);  // legge il valore dell'input e lo conserva
 
   // controlla che l'input sia HIGH (pulsante premuto)
   if (val01 == HIGH) {
