@@ -63,9 +63,9 @@ void loop() {
   // ciclo LED02
   for (int i=0; i<5; i++)        // variabile i usata per contare i cicli di accensione
   {                              // e spegnimento
-    digitalWrite(LED01, HIGH);   // accende il LED02 (livello di tensione HIGH)
+    digitalWrite(LED02, HIGH);   // accende il LED02 (livello di tensione HIGH)
     delay(1000);                 // attesa di 1 secondo
-    digitalWrite(LED01, LOW);    // spegne il LED02 (livello di tensione LOW)
+    digitalWrite(LED02, LOW);    // spegne il LED02 (livello di tensione LOW)
     delay(1000);                 // attesa di 1 secondo
   }
 }
