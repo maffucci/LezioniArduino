@@ -44,6 +44,7 @@ void loop(){
   // (invia i dati alla seriale e li visualizza) seguito da un
   // ritorno a capo automatico ed un avanzamento linea.
   
+  analogWrite(pinLed,inputVal);                 // accende il LED con Duty Cycle inputVal
   Serial.print("Valore letto dal sensore = ");  // stampa ciò che è incluso tra ""
   Serial.println(val);                          // stampa val
   delay(2);                                     // attesa di 2 millisecondi per consentire la lettura
