@@ -53,9 +53,9 @@ void loop()
 
         // calcola la proporzione
         // il valore restituito da analogRead() è un numero compreso tra
-        // 0 e 1023 pertanto ciascuna unità vale 5/2023 = 4,89 mV
-        // da cui valore misurato (volt) = val * 4,89 mV
-        float volt = val * (voltRiferimento/1023.0);  
+        // 0 e 1024 pertanto ciascuna unità vale 5/1024 = 4,88 mV
+        // da cui valore misurato (volt) = val * 4,88 mV
+        float volt = val * (voltRiferimento/1024.0);  
         Serial.print(volt);                             // stampa il valore
         Serial.println(" V");                           // stampa il valore
       }
