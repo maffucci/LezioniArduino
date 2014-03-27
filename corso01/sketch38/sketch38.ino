@@ -86,6 +86,8 @@ void loop() {
   if (temperatura > tempMin && temperatura < tempMax) {
     stampaTemperatura(temperatura);              // stampa la temperatura
   }
+  temperatura=0;                                 // inizializzazione della variabile per
+                                                 // il nuovo ciclo di lettura
 }
 
 void stampaTemperatura(float temperatura){
