@@ -37,7 +37,7 @@ int valore = 0;                   // valore restituito dall'analogRead()
 float temperatura = 0;            // variabile per conservare
                                   // la temperatura rilevata
 
-int misure[8];                    // array in cui memorizzare 8 valori
+float misure[8];                    // array in cui memorizzare 8 valori
 
 float tempMax = 25;               // valore massimo di allarme della temperatura
 float tempMin = 20;               // valore minimo di allarme della temperatura
