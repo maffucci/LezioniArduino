@@ -71,5 +71,6 @@ void loop() {
   lcd.print(" Celsius ");                      // stampa la la parola "Celsius" dopo il valore
   delay(1000);                                 // intervallo di 1 secondo
   lcd.clear();                                 // cancella lo schermo
-
+  temperatura=0;                               // inizializzazione della variabile per
+                                               // il nuovo ciclo di lettura
 }
