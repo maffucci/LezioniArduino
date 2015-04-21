@@ -87,21 +87,21 @@ void loop()
 
 void controllaPosizione(int angoloRaggiunto) {
   switch (angoloRaggiunto) {
-    case 0:
+    case 0:                                  // controllo raggiungimento 0 gradi
       digitalWrite(ledMinimo, HIGH);
       digitalWrite(ledMedio, LOW);
       digitalWrite(ledMassimo, LOW);
       suona(notaLA, durataNotaLA);
       controlloLimite=0;
       break;
-    case 60:
+    case 60:                                 // controllo raggiungimento 60 gradi
       digitalWrite(ledMinimo, LOW);
       digitalWrite(ledMedio, HIGH);
       digitalWrite(ledMassimo, LOW);
       suona(notaDO, durataNotaDO);
       controlloLimite=0;
       break;
-    case 120:
+    case 120:                                // controllo raggiungimento 120 gradi
       digitalWrite(ledMinimo, LOW);
       digitalWrite(ledMedio, LOW);
       digitalWrite(ledMassimo, HIGH);
