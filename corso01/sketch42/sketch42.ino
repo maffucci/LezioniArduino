@@ -16,7 +16,7 @@
 Servo myservo;  // crea un oggetto Servo
 
 int pinTrimmer = 0;  // pin analogico a cui viene connesso il trimmer
-int valore;          // variabile usata per memorizzare il lavolre di ingresso
+int valore;          // variabile usata per memorizzare il valore di ingresso
 
 void setup()
 {
