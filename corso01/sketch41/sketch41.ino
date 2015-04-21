@@ -62,7 +62,7 @@ void loop()
       if (posizione >= 20) // fino a quando la posizione maggiore di 20 gradi puo' diminuire
       {
         posizione = posizione - 20;
-        Serial.println("Mi sono spostato di 10 gradi indietro");
+        Serial.println("Mi sono spostato di 20 gradi indietro");
         controllaPosizione(posizione);
       }
     }
@@ -73,7 +73,7 @@ void loop()
       if (posizione < 120) // fino a quando la posizione minore di 120 gradi puo' diminuire
       {
         posizione = posizione + 20;
-        Serial.println("Mi sono spostato di 10 gradi in avanti");
+        Serial.println("Mi sono spostato di 20 gradi in avanti");
         controlloLimite = posizione;
         controllaPosizione(controlloPosizione);
       }
