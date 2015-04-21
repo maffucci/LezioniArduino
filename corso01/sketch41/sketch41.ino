@@ -1,3 +1,4 @@
+
 /* Prof. Michele Maffucci
    18.04.2014
 
@@ -75,7 +76,7 @@ void loop()
         posizione = posizione + 20;
         Serial.println("Mi sono spostato di 20 gradi in avanti");
         controlloLimite = posizione;
-        controllaPosizione(controlloPosizione);
+        controllaPosizione(controlloLimite);
       }
     }
   }
