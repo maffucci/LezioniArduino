@@ -45,7 +45,7 @@ void loop() {
     ValRosso -= 1;
 
     /* ad ogni ciclio la differenza
-     255 - ValVerde AUMENTA
+     255 - ValRosso AUMENTA
      provocando un graduale spegnimento del rosso
      */
 

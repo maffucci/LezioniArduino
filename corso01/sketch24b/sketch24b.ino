@@ -36,7 +36,7 @@ int ValBlu;
 void loop() {
   // spegnimento graduale del blu
 
-  // coordinate RGB del rosso: 255, 0, 0
+  // coordinate RGB del rosso: 0, 0, 255
 
   ValBlu = 255;
 
@@ -45,7 +45,7 @@ void loop() {
     ValBlu -= 1;
 
     /* ad ogni ciclio la differenza
-     255 - ValVerde AUMENTA
+     255 - ValBlu AUMENTA
      provocando un graduale spegnimento del rosso
      */
 
