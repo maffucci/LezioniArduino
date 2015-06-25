@@ -1,7 +1,7 @@
 /* Prof. Michele Maffucci
    16.03.2014
  
-   Uso di un led RGB
+   Uso di un led RGB ad anodo comune
    Spegnimento graduale del LED Blu
  
    Questo codice è di dominio pubblico 
